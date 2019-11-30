@@ -1,0 +1,52 @@
+
+            int i;
+           // double x;
+            int A = 2;
+            int B = 8;
+            double y,a,b,c; 
+            
+            Console.WriteLine("Podaj a: ");
+            a = int.Parse(Console.ReadLine());
+            Console.WriteLine("Podaj b: ");
+            b = int.Parse(Console.ReadLine());
+            Console.WriteLine("Podaj c: ");
+            c = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Podaj x: ");
+            //x = double.Parse(Console.ReadLine());
+
+
+            for (i=A;i<=B;i++)
+            {
+                Console.Write("x =: {0} ",i);
+                y = fun(a, b, c, i);
+                Console.Write(" y ==", y);
+                Console.WriteLine("\n");
+
+             
+            }
+
+            
+            //Console.WriteLine("wartosc funkcji: " + fun(a,b,c,x));
+            
+            Console.ReadLine();
+        }
+        static double fun(int a, int b, int c, int x )
+        {
+            return a * x * x + b * x + c; 
+/Console.Write("Podaj jakies Imie: ");
+            //imie = Console.ReadLine();
+            //program wczytuje imie i Adam zwraca
+            imie = "adam";
+            Console.WriteLine("-> ", NapisCokolwiek(imie));
+
+            Console.ReadLine();
+        }
+        static string NapisCokolwiek(string name)
+        {
+
+            string name2 = name.ToLower();
+            string name3 = index(name2.ToUpper
+            
+            //string result = "";
+
+            return name2; 
